@@ -1,0 +1,85 @@
+{
+    "applicationId": "CGAMJYK09F",
+    "indexName": "qa_magento245p81c_default_products",
+    "pageIndexName":"qa_magento245p81c_default_pages",
+    "colorIndexName":"qa_magento245p81c_default_section_color",
+    "categoryIndexName":"qa_magento245p81c_default_categories",
+    "apiKey": "Nzc3ODJlYjFlMDAwMTY0OTFiZDgzNGE2NDQ0NGIyYzY3NmQ1MTZhNTc2YmZjZTc4NGZjNTJmMzhhZjUxNWU3NXRhZ0ZpbHRlcnM9",
+    "useAdaptiveImage": true,
+    "userToken": "aa-Y3VzdG9tZXItbW9oaXQuY2hvdWRoYXJ5QGFsZ29saWEuY29tLTI",
+    "autocomplete": {
+        "enabled": true,
+        "selector": ".algolia-search-input",
+        "sections": [
+            {
+                "name": "pages",
+                "label": "Pages",
+                "hitsPerPage": "2"
+            },
+            {
+                "name": "color",
+                "label": "Colors",
+                "hitsPerPage": "2"
+            }
+        ],
+        "nbOfProductsSuggestions": 8,
+        "nbOfCategoriesSuggestions": 4,
+        "nbOfQueriesSuggestions": 0,
+        "isDebugEnabled": false
+    },
+    "facets":[
+        {
+            "containerId": "hits-per-page",
+            "type": "hitsPerPage",
+            "title": "Record Per Page",
+            "listItem": [
+                { "label": "6 hits per page", "value": 6, "default": true },
+                { "label": "12 hits per page", "value": 12 }
+            ]
+        },
+        {
+            "containerId": "filterPrice",
+            "type": "rangeInput",
+            "title": "Price",
+            "attribute": "price.USD.group_0",
+            "buttonText":"Filter"
+        },
+        {
+            "containerId": "filterCategories",
+            "type": "hierarchicalMenu",
+            "title": "Categories",
+            "attribute": ["categories.level0", "categories.level1", "categories.level2"]
+        },
+        {
+            "containerId": "filterColors",
+            "type": "refinementList",
+            "title": "Colour",
+            "attribute": "color",
+            "searchable": true,
+            "limit": 5,
+            "showMore": true
+        },
+        {
+            "containerId": "filterSize",
+            "type": "refinementList",
+            "title": "Size",
+            "attribute": "size",
+            "searchable": false,
+            "limit": 50,
+            "showMore": false
+        }
+    ],
+    "sortList":[
+        { "label": "Relevance", "value": "qa_magento245p81c_default_products" },
+        { "label": "Lowest Price", "value": "qa_magento245p81c_default_products_price_group_0_asc" },
+        { "label": "Highest Price", "value": "qa_magento245p81c_default_products_price_group_0_desc" }
+    ],
+    "urls": {
+        "logo": "https://magento2-demo.algolia.com/static/version1654683130/frontend/Magento/luma/en_US/Algolia_AlgoliaSearch/images/search-by-algolia.svg"
+    },
+    "translations": {
+        "or": "or",
+        "allDepartments": "All departments"
+    },
+    "REPLACE_URL":"https://245p81c.ayasya.de"
+}
