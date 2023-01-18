@@ -1,7 +1,7 @@
 {
-  "name": "@algolia/autocomplete",
+  "name": "@algolia/algoliasearch-magento-2-pwa",
   "author": "Algolia",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "main": "src/index.js",
   "pwa-studio": {
     "targets": {
