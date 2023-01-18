@@ -3,7 +3,7 @@
 ![Latest version](https://img.shields.io/badge/latest-1.0.0-green)
 
 ```Dependencies```
-![Algolia](https://img.shields.io/badge/-instantsearch.js_4.49.1-5468FF?logo=algolia&colorA=404040&logoColor=5468FF) ![Node](https://img.shields.io/badge/-algoliasearch_4.14.2-5468FF?logo=algolia&colorA=404040&logoColor=5468FF) ![Algolia](https://img.shields.io/badge/-insights_2.2.1-5468FF?logo=algolia&colorA=404040&logoColor=5468FF) ![Algolia](https://img.shields.io/badge/-autocomplete_1.7.1-5468FF?logo=algolia&colorA=404040&logoColor=5468FF) ![Node](https://img.shields.io/badge/-version_16+-66cc33?logo=node.js&colorA=404040&logoColor=66cc33)
+<a href="https://github.com/algolia/instantsearch/releases/tag/v4.49.1">![Algolia](https://img.shields.io/badge/-instantsearch.js_4.49.1-5468FF?logo=algolia&colorA=404040&logoColor=5468FF)</a> <a href="https://github.com/algolia/algoliasearch-client-javascript/releases/tag/4.14.2">![Node](https://img.shields.io/badge/-algoliasearch_4.14.2-5468FF?logo=algolia&colorA=404040&logoColor=5468FF)</a> <a href="https://github.com/algolia/search-insights.js/releases/tag/v2.2.1">![Algolia](https://img.shields.io/badge/-insights_2.2.1-5468FF?logo=algolia&colorA=404040&logoColor=5468FF)</a> <a href="https://github.com/algolia/autocomplete/releases/tag/v1.7.1">![Algolia](https://img.shields.io/badge/-autocomplete_1.7.1-5468FF?logo=algolia&colorA=404040&logoColor=5468FF)</a> <a href="https://nodejs.org/en/blog/release/v16.16.0/">![Node](https://img.shields.io/badge/-version_16+-66cc33?logo=node.js&colorA=404040&logoColor=66cc33)</a>
 
 ## Setting Up Magento PWA for Venia
 ### Create Magento PWA Project
