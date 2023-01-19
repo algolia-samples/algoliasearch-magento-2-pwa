@@ -75,8 +75,12 @@ const AlgoliInsantSearch = props => {
         const appId = ConfigData.applicationId;
         const apiKey = ConfigData.apiKey;
         const indexName = ConfigData.indexName;
-
-        const searchClient = algoliasearch(appId, apiKey);
+        const extraHeader = {
+          headers: {
+            AppSample: ConfigData.appVersion;
+          }
+        };  
+        const searchClient = algoliasearch(appId, apiKey, extraHeader);
 
         let initialUI;
         const initialCat = getCategoryArray();

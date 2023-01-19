@@ -88,6 +88,9 @@ Instant Search Page is created using `instantsearch.js` package and the widgets 
 
 For autocomplete, the `@algolia/autocomplete-js` package and `@algolia/autocomplete-theme-classic` is used.
 
+## Note: 
+GraphQL endpoints have not been implemented in our AlgoliaSearch Magento Extension yet; Algolia configurations for Magento PWA need to be manually managed in @algolia/src/override/config.json (refer to @algolia/src/override/config.sample.json).
+
 ## References
 [Instant Search](https://www.algolia.com/doc/api-reference/widgets/instantsearch/js/)
 [Search Insights](https://www.algolia.com/doc/api-client/methods/insights/)

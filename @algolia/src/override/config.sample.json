@@ -1,12 +1,12 @@
 {
-    "applicationId": "<Algolia Application Id>",
-    "indexName": "<Algolia Application Id>",
-    "pageIndexName":"<Page Index Name>",
-    "colorIndexName":"<Colors Index Name>",
-    "categoryIndexName":"<Category Index Name>",
-    "apiKey": "<Algolia API Key>",
+    "applicationId": "CGAMJFTG12",
+    "indexName": "test_magento_default_products",
+    "pageIndexName":"_default_pages",
+    "colorIndexName":"test_magento_default_section_color",
+    "categoryIndexName":"test_magento_default_categories",
+    "apiKey": "Nzc3ODJlYjFlMDAwMTY0OTFiZDgzNGE2NDQ0NGIyYzY3NmQ1MTZhNTc2YmZjZTc4NGZjNTJmMzhhZjUxNWU3NXRhZ0ZpbHR089786868",
     "useAdaptiveImage": true,
-    "userToken": "<User Token>",
+    "userToken": "aa-Y3VzdG9tZXItbW9oaXQuY2hvdWRoYXJ5QGFsZ29saWEuY29tLTI23",
     "autocomplete": {
         "enabled": true,
         "selector": ".algolia-search-input",
@@ -70,17 +70,17 @@
         }
     ],
     "sortList":[
-        { "label": "Relevance", "value": "<Product Index Name>" },
-        { "label": "Lowest Price", "value": "<Product Index Name for price sorting>" },
-        { "label": "Highest Price", "value": "<Product Index Name for price sorting>" }
+        { "label": "Relevance", "value": "test_magento_default_products" },
+        { "label": "Lowest Price", "value": "test_magento_default_products_price_group_0_asc" },
+        { "label": "Highest Price", "value": "test_magento_default_products_price_group_0_desc" }
     ],
     "urls": {
-        "logo": "<Logo Url>"
+        "logo": "https://magento2-demo.algolia.com/static/version1654683130/frontend/Magento/luma/en_US/Algolia_AlgoliaSearch/images/search-by-algolia.svg"
     },
     "translations": {
         "or": "or",
         "allDepartments": "All departments"
     },
-    "REPLACE_URL":"<Magento Website URL>",
+    "REPLACE_URL":"https://magento2-demo.algolia.com/",
     "appVersion":"appsample_integration_1.0.0"
 }

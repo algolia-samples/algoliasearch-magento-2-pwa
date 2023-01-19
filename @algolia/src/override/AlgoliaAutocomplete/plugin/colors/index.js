@@ -5,7 +5,12 @@ import { getAlgoliaResults } from '@algolia/autocomplete-js';
 import ConfigData from '../../../config.json';
 const appId = ConfigData.applicationId;
 const apiKey = ConfigData.apiKey;
-const searchClient = algoliasearch(appId, apiKey);
+const extraHeader = {
+          headers: {
+            AppSample: ConfigData.appVersion;
+          }
+        };  
+const searchClient = algoliasearch(appId, apiKey, extraHeader);
 
 export function PluginSuggestionColor(options) {
     return {
