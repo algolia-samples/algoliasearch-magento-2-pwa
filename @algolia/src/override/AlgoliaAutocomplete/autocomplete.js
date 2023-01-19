@@ -7,7 +7,12 @@ import autocompleteClasses from './autocomplete.module.css';
 import ConfigData from '../config.json';
 const appId = ConfigData.applicationId;
 const apiKey = ConfigData.apiKey;
-const searchClient = algoliasearch(appId, apiKey);
+const extraHeader = {
+          headers: {
+            AppSample: ConfigData.appVersion;
+          }
+        };  
+const searchClient = algoliasearch(appId, apiKey, extraHeader);
 
 const AlogliaAutocomplete = React.forwardRef((props, ref) => {
   const { isOpen } = props;
