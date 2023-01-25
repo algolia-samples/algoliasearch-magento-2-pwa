@@ -95,3 +95,7 @@ GraphQL endpoints have not been implemented in our AlgoliaSearch Magento Extensi
 [Instant Search](https://www.algolia.com/doc/api-reference/widgets/instantsearch/js/)
 [Search Insights](https://www.algolia.com/doc/api-client/methods/insights/)
 [Algolia Search](https://www.algolia.com/doc/api-client/getting-started/install/javascript/?client=javascript)
+
+Need Help?
+------------
+For feedback, bug reporting, or unresolved issues with the extension, please contact us at [support@algolia.com](mailto:support@algolia.com). Please include your application ID, and steps to reproducing your issue. Add additional information like screenshots, screencasts, and error messages to help our team better troubleshoot your issues.
