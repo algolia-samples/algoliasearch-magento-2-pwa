@@ -92,8 +92,11 @@ For autocomplete, the `@algolia/autocomplete-js` package and `@algolia/autocompl
 GraphQL endpoints have not been implemented in our AlgoliaSearch Magento Extension yet; Algolia configurations for Magento PWA need to be manually managed in @algolia/src/override/config.json (refer to @algolia/src/override/config.sample.json).
 
 ## References
-[Instant Search](https://www.algolia.com/doc/api-reference/widgets/instantsearch/js/)
-[Search Insights](https://www.algolia.com/doc/api-client/methods/insights/)
+[Instant Search](https://www.algolia.com/doc/api-reference/widgets/instantsearch/js/)<br>
+[React Instant Search](https://www.algolia.com/doc/guides/building-search-ui/what-is-instantsearch/react/)<br>
+[RefinementList](https://www.algolia.com/doc/api-reference/widgets/refinement-list/react/#examples)<br>
+[React Autocomplete](https://www.algolia.com/doc/ui-libraries/autocomplete/integrations/using-react/)<br>
+[Search Insights](https://www.algolia.com/doc/guides/building-search-ui/going-further/send-insights-events/react/#installing-the-search-insights-library)<br>
 [Algolia Search](https://www.algolia.com/doc/api-client/getting-started/install/javascript/?client=javascript)
 
 Need Help?
