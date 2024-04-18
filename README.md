@@ -23,7 +23,7 @@ $ Select Yarn => Install package dependencies with yarn after creating project: 
 
 ### Adding Algolia Search PWA extension for Magento 2
 
-- Download the source for [Algolia Search PWA extension for Magento 2](https://github.com/algolia/algoliasearch-magento-2-pwa/tree/master)
+- Download the source for [Algolia Search PWA extension for Magento 2](https://github.com/algolia-samples/algoliasearch-magento-2-pwa/archive/refs/heads/main.zip)
 - Extract the source zip file
 - Copy the @algolia folder from the extracted source and paste it to your PWA root directory.
 - Below is the folder structure you can see in your @algolia folder.
